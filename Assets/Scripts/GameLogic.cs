@@ -40,6 +40,7 @@ public class GameLogic : MonoBehaviour
         _interface.SessionStart();
         _resultPanel.SessionStart();
 
+        _score = 0;
         _level = 1;
         _currentMaxCardNumber = _maxCardNumber;
         _cardsToCompare = new List<Card>();
