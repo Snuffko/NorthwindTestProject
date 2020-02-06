@@ -66,7 +66,6 @@ public class ResultPanel : MonoBehaviour
         _currencyValueDisplay.text = _gameLogic.GetCurrency().ToString();
 
         _timer = _gameLogic.GetTimerMinutes() * 60;
-        _timer = 252;
         _isTimerEnabled = true;
         _timerPanel.SetActive(true);
     }

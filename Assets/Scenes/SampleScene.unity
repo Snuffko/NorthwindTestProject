@@ -3905,7 +3905,7 @@ MonoBehaviour:
   _tryCount: 18
   _playerLevel: 1
   _minutesBetweenSession: 5
-  _maxCardNumber: 10
+  _maxCardNumber: 8
 --- !u!4 &1655376326
 Transform:
   m_ObjectHideFlags: 0
